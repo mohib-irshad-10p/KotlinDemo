@@ -31,3 +31,21 @@ fun main() {
     val person = Person.createPerson("John")
     println(person.name)
 }
+
+
+/*.
+equals()
+.hashCode()
+.toString()
+.componentN() functions
+.copy()*/
+data class User(val name: String, val age: Int)
+
+
+object MySingleton {
+    fun sayHello() {
+        println("Hello")
+    }
+}
+
+//MySingleton.sayHello();
