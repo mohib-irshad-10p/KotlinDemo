@@ -41,6 +41,10 @@ equals()
 .copy()*/
 data class User(val name: String, val age: Int)
 
+fun main3() {
+    val (name, age) = User("John", 10)
+}
+
 
 object MySingleton {
     fun sayHello() {
